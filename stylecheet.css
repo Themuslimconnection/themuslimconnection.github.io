@@ -1,0 +1,203 @@
+
+body {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 13px;
+line-height: 1.4;
+color: #333333;
+background-color: #f7f7f7;
+-webkit-font-smoothing: antialiased;
+margin-right:0px;
+margin-left:0px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+	position:relative;
+	z-index: 100;
+	 overflow: hidden;
+      margin-top:-20px;
+	  margin-bottom:3px
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+	  position:relative;
+	z-index: 100;
+	 overflow: hidden;
+      margin-top:-20px;
+	  margin-bottom:1px
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+	 
+	#slides {
+      display: none;
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto;
+		margin-top: 20px;
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+       width: 100%;
+		margin-top: 5px;
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 100%;
+		margin-top: 5px;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 980px) {
+      .container {
+	width: auto;
+		margin-top: 5px;
+		background-color:black;
+      }
+    }
+	#footer {
+clear: both;
+padding-top: 20px;
+margin-top: 20px;
+margin-bottom: 50px;
+color: #aaa;
+margin-left: auto;
+margin-right: auto;
+padding-left: 25px;
+padding-right: 25px;
+width: 1045px;
+}
+div {
+display: block;
+}
+#logo {
+width: 110%;
+margin-left: -100px;
+background-color: #f7f7f7;
+}
+#secondpanel{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 25px;
+padding-right: 25px;
+width: 1045px;
+box-sizing: border-box;
+margin-bottom: 25px;
+}
+}
+
+#spacetop {
+margin-top:37.5px
+}
