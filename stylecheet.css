@@ -8,6 +8,7 @@ background-color: #f7f7f7;
 -webkit-font-smoothing: antialiased;
 margin-right:0px;
 margin-left:0px;
+margin-top:0px;
     }
 
     #slides {
@@ -127,7 +128,7 @@ margin-left:0px;
     }
 
     .container {
-      margin: 0 auto
+      margin: 0;
     }
 
     /* For tablets & smart phones */
@@ -138,7 +139,7 @@ margin-left:0px;
       }
       .container {
         width: auto;
-		margin-top: 20px;
+		margin-top: 0px;
       }
     }
 
@@ -154,7 +155,7 @@ margin-left:0px;
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
         width: 100%;
-		margin-top: 5px;
+		margin-top: 0px;
       }
     }
 
@@ -162,7 +163,7 @@ margin-left:0px;
     @media (min-width: 980px) {
       .container {
 	width: auto;
-		margin-top: 5px;
+		margin-top: 0px;
 		height:550px;
       }
     }
@@ -180,11 +181,6 @@ width: 1045px;
 }
 div {
 display: block;
-}
-#logo {
-width: 110%;
-margin-left: -100px;
-background-color: #f7f7f7;
 }
 #secondpanel{
 width: 100%;

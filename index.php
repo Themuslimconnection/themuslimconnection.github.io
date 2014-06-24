@@ -3,11 +3,7 @@
 <link rel="stylesheet" type="text/css" href="stylecheet.css"/>
 <script type="text/javascript" src="script.js"></script>
  <script src="jquery.slides.min.js"></script>
-<center>
-<div id="logo">
-  <img src="http://placehold.it/600x100" alt="some_text">
-  </div>
-</center>
+ 
 <div class="container">
     <div id="slides">
      
@@ -37,6 +33,7 @@
   <br><br>
   <div id="spacetop"></div>
   <div id="secondpanel">
+  
   <h1>Content</h1>
   <h4> This is a pointless sentence. Isn't that cool?</h4><br>
   <center><img src="http://placehold.it/315x165">          <img src="http://placehold.it/315x165"> <img src="http://placehold.it/315x165"></center>
