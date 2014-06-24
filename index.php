@@ -10,13 +10,28 @@
 </center>
 <div class="container">
     <div id="slides">
-      <img src="http://placehold.it/1600x400" >
-      <img src="http://www.clinks.com.br/wp-content/uploads/2013/08/os-clientes-que-voce-procura-estao-te-procurando-no-goole-apareca-quando-precisam-de-voce-anuncie-no-google.png" >
-      <img src="http://placehold.it/1600x400" >
-	   <img src="http://placehold.it/1600x400" >
-      <img src="http://placehold.it/1600x400" >
-      <img src="http://placehold.it/1600x400" >
-      <img src="http://placehold.it/1600x400" >
+     
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" > <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	    <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" > <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	    <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" > <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
+	  <img src="http://placehold.it/1600x550" >
+	   <img src="http://placehold.it/1600x550" >
     </div>
   </div>
   <br><br>

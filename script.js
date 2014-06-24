@@ -5,7 +5,7 @@ $(document).ready(function () {
 $(function() {
       $('#slides').slidesjs({
         width: 1600,
-        height: 400,
+        height: 550,
         play: {
           active: true,
           auto: true,
