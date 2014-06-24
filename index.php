@@ -26,8 +26,6 @@
 	  <img src="http://placehold.it/1600x550" >
 	   <img src="http://placehold.it/1600x550" > <img src="http://placehold.it/1600x550" >
 	   <img src="http://placehold.it/1600x550" >
-	  <img src="http://placehold.it/1600x550" >
-	   <img src="http://placehold.it/1600x550" >
     </div>
   </div>
   <br><br>
