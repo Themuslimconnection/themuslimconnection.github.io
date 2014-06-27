@@ -198,9 +198,7 @@ margin-bottom: 25px;
 margin-top:37.5px
 }
 div.logotitle {
-	z-index:1100;
-	position: absolute; // reposition logo from the natural layout
+	position:relative;
+   bottom:150px;
+   left:150px;
 	font-weight:bold;
-	margin-right:-200px;
-	margin-top:-400px;
-}
