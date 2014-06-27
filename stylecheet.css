@@ -13,6 +13,7 @@ margin-top:0px;
 
     #slides {
       display: none
+      top:100px;
     }
 
     #slides .slidesjs-navigation {
