@@ -88,6 +88,7 @@ position:relative;
     .slidesjs-pagination li {
       float: left;
       margin: 0 1px;
+      z-index:100;
     }
 
     .slidesjs-pagination li a {
@@ -204,13 +205,11 @@ margin-bottom: 25px;
 margin-top:37.5px
 }
 div.logotitle {
-background:black;
 z-index:100;
-font-size:36px;
+font-size:56px;
     position:absolute;    
     color:white;
-    font-size:24px;
     font-weight:bold;
     left:150px;
-    top:550px;
+    top:250px;
 }
