@@ -197,7 +197,7 @@ margin-bottom: 25px;
 #spacetop {
 margin-top:37.5px
 }
-#logotitle {
+div.logotitle {
 	z-index:1100;
 	position: absolute; // reposition logo from the natural layout
 	font-weight:bold;
