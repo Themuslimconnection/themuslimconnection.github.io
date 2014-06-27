@@ -199,4 +199,6 @@ margin-top:37.5px
 }
 #logotitle {
 	z-index:110;
+	margin-top:-100px;
+	
 }
