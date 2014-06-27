@@ -131,6 +131,7 @@ margin-top:0px;
     .container {
       margin: 0;
       position:absolute;
+      top:100px;
     }
 
     /* For tablets & smart phones */
