@@ -201,6 +201,6 @@ div.logotitle {
 	z-index:1100;
 	position: absolute; // reposition logo from the natural layout
 	font-weight:bold;
-	margin-left:-200px;
+	margin-right:-200px;
 	margin-top:-400px;
 }
