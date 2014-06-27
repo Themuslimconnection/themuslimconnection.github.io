@@ -203,7 +203,7 @@ margin-top:37.5px
 div.logotitle {
 	z-index:101;
 background:black;
-position: absolute; 
+position: relative; 
 width: 345px;
 height: 20px;
  padding: 10px;
