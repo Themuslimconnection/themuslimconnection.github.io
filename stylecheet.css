@@ -129,7 +129,7 @@ margin-top:0px;
 
     .container {
       margin: 0;
-      position:relative;
+      position:absolute;
     }
 
     /* For tablets & smart phones */
