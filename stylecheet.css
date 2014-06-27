@@ -23,7 +23,7 @@ position:relative;
 	  margin-bottom:3px;
 	  bottom:30px;
     }
-
+	/*  THIS IS THE PLAY AND PAUSE BUTTON CRAP ON THE LEFT HOLY CRAP */
     a.slidesjs-next,
     a.slidesjs-previous,
     a.slidesjs-play,
@@ -35,6 +35,7 @@ position:relative;
       height:18px;
       text-indent: -9999px;
       float: left;
+      margin-top:-5px;
       margin-right:5px;
       z-index:100;
     }
