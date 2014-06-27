@@ -130,7 +130,7 @@ margin-top:0px;
 
     .container {
       margin-top: -20px;
-      position:absolute;
+      position:relative;
       top:-20px;
     }
 
