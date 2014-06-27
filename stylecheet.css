@@ -19,8 +19,9 @@ position:relative;
 
     #slides .slidesjs-navigation {
 	 overflow: hidden;
-      margin-top:-20px;
-	  margin-bottom:3px
+      margin-top:20px;
+	  margin-bottom:3px;
+	  bottom:30px;
     }
 
     a.slidesjs-next,
