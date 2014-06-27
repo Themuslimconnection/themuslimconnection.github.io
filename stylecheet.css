@@ -198,7 +198,11 @@ margin-bottom: 25px;
 margin-top:37.5px
 }
 div.logotitle {
+	background:black;
 position:relative;
    bottom:150px;
    left:150px;
+               width: 345px;
+            height: 220px;
+            padding: 10px;
 font-weight:bold;
