@@ -159,6 +159,7 @@ position:relative;
       .container {
        width: auto;		
 		margin-top: 0px;
+		height:700px;
       }
     }
 
@@ -167,6 +168,7 @@ position:relative;
       .container {
         width: 100%;
 		margin-top: 0px;
+		height:700px;
       }
     }
 
