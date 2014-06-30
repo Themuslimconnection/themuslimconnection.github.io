@@ -139,6 +139,7 @@ position:relative;
       position:absolute;
     left:0;
     top:0;
+	height:auto;
     }
 
     /* For tablets & smart phones */
@@ -151,6 +152,7 @@ position:relative;
       	position:relative;
         width: auto;
 		margin-top: 0px;
+		height:auto;
       }
     }
 
@@ -159,7 +161,7 @@ position:relative;
       .container {
        width: auto;		
 		margin-top: 0px;
-		height:700px;
+		height:auto;
       }
     }
 
