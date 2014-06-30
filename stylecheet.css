@@ -156,6 +156,10 @@ position:relative;
 		margin-top: 0px;
 		height:auto;
       }
+	  .secondpanel {
+	margin-top: -120px;
+	padding-top: -120px;
+	}
     }
 
     /* For smartphones */
