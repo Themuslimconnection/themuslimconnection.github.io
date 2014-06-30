@@ -167,7 +167,7 @@ position:relative;
       .container {
        width: auto;		
 		margin-top: 0px;
-		height:auto;
+		background-color:black;
       }
 	  .secondpanel {
 	margin-top: -120px;
