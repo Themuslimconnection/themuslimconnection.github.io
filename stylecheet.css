@@ -312,13 +312,13 @@ iframe.mapps ,
 display:none;
 }
  /* For larger displays */
-    @media (min-width: 980px) {
+    @media (min-height: 980px) {
       .container {
 	width: auto;
 		margin-top: 0px;
 		height:700px;
       }
 	.secondpanel {
-	padding-top: 120px;
+	margin-top: 60px;
 	}
     }
