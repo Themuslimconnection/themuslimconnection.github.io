@@ -125,6 +125,7 @@ function video() {
 	if (i = 4) {
 	i = 3;
 	$( ".mapps" ).fadeOut(375);
+	$('div#contactus').fadeOut(375);
 	$('div#mapps').fadeOut(375);
 	$('div#videocol').fadeIn(375);
 	$('div#slides').show("slow");
