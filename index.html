@@ -1,31 +1,117 @@
 <html>
+<script src="http://www.google.com/jsapi"></script>
+<!-- load JQuery and UI from Google (need to use UI to animate colors) -->
+<script type="text/javascript">
+google.load("jqueryui", "1.5.2");
+</script>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="stylecheet.css"/>
 <script type="text/javascript" src="script.js"></script>
  <script src="jquery.slides.min.js"></script>
- <div class="logotitle"> Test Title</div>
-<div class="container">
+ <div class="navbar"><center>
+ <input   type="button"   name="navbarbtns"   value="HOME"   id="navbarid"   onclick="home()">
+<input   type="button"   name="navbarbtns"   value="ABOUT US"   id="navbarid"   onclick="aboutus()">
+<input   type="button"   name="navbarbtns"   value="VIDEO COLLECTION"   id="navbarid"   onclick="video()">
+<input   type="button"   name="navbarbtns"   value="CONTACT US"   id="navbarid"   onclick="contactus()">
+<input   type="button"   name="navbarbtns"   value="SIGN UP"   id="navbarid"   onclick="sign()"><br>
+</div></center>
+ <div class="logotitle"></div>
+<div class="container" id="container">
     <div id="slides">
      
-	  <img src="http://romaric77.fond-ecran-image.com/blog-photo/files/2008/08/1600x550-a.jpg" >
-	   <img src="http://4.bp.blogspot.com/-Bu4kxBGZXgU/TqmbsQcj7RI/AAAAAAAACpE/vSOmy_BLF9o/s1600/paris-by-night-la-nuit.jpg" >
-	  <img src="http://www.getawaygolf.com.au/media/coinslider/upload/getaway-golf-home-banner-04.jpg" >
+	  <img id="headerslider" src="http://fc01.deviantart.net/fs71/i/2013/308/a/8/faisal_masjid__islamabad_by_amjad_miandad-d6swywz.jpg" >
+	  <img id="headerslider2" src="http://3.bp.blogspot.com/-6RU50x4xLw0/ULJPHWuTHTI/AAAAAAAAAY0/jfF6LbzkE30/s1600/D7K_1848_sj.jpg" >
 	   
     </div>
+	<iframe class="mapps" height="550" width="100%"frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=5901%20E%20130th%20Ave%20Tampa%2C%20FL%2033617&key=AIzaSyDujKlH807OgUSdXRfHkVNy2T4vOOS0vZg&zoom=18"></iframe> 
+	
   </div>
-  <br><br>
+  
+  
+  
+  
+  
+  
   <div id="spacetop"></div>
-  <div id="secondpanel"><br><br><br>
-  
-  <h1>Content</h1>
-  <h4> This is a pointless sentence. Isn't that cool?</h4><br>
-  <center><img src="http://placehold.it/315x165">          <img src="http://placehold.it/315x165"> <img src="http://placehold.it/315x165"></center>
-  <center><img src="http://placehold.it/315x165">          <img src="http://placehold.it/315x165"> <img src="http://placehold.it/315x165"></center>
-  </div>
   
   
+<div class="secondpanel" id="secondpanel">
+	<div class="homediv" id="homediv">
+		<h1>
+			Recent Events
+		</h1><br>
+		<center>
+			<img src="http://placehold.it/1150x850">
+   		</center>
+	</div>
+	<div class="aboutus" id="aboutus">
+		<h1> Who We Are </h1>
+		<p> This youth committee is an effort to bring the youth closer to Allah through halaqas and activities that are centered on pleasing Allah, while producing productive, Muslim citizens.
+		 It all started with a Quran verse.</p>
+		<h1>There should be from amongst you a group that calls for good, commands right, prohibits wrong, and these will be the successful ones (3:104).</h1> <p><br>
+
+		The Prophet (saw) advised to: <br></p><center class="quotes">"Take benefit of five before five: Your youth before your old age, your health before your sickness, your wealth before your poverty, your free time before you are preoccupied, and your life before your death"</center><p><br> (Narrated by Ibn Abbas and reported by Al Hakim)<br><br>
+
+		This youth committee is an effort to bring the youth closer to Allah through halaqas and activities that are centered on pleasing Allah, while producing productive, Muslim citizens.</p>
+		<br><br>
+		<h1>The Muslim Connection Infrastructure</h1>
+		<h2>Board of Tustees</h2>
+		<p>1. Hassan Sultan<br>
+		2. Ezdehar Sultan<br>
+		3. Hajjah Kamara</p>
+		<h2>Advisors</h2>
+		<p>1. Imam Mohammad Sultan<br>
+		2. Shaykh Ahmad Sharaf<br>
+		3. Shaykh Ra'ad Al Rousan</p>
+		<h2>Executive Committee </h2><p>
+		President: Hassan Sultan<br>
+
+		Vice President: Ezdehar Sultan<br>
+
+		Secretary: Ashkaar Qazi<br>
+
+		Treasurer: Mohamad-Waleed Gebarin<br>
+
+		Public Relations: Adam Gebarin<br>
+
+		Da'wah Chair: Malak Fakhoury<br>
+
+		Events Coordinator: Hajjah Kamara<br>
+
+		Sister's Events Coordinator: Amena Khan<br>
+
+		Brother's Event Coordinators: Ryan ElFallah and Tariq Muhammad<br>
+
+		Team Fajr Coordinator: Ryan El-Fallah<br>
+
+		Organization Liasion: Umar Abunamous<br>
+
+		Sick Committee Chair: Abdul-Aziz Sultan<br>
+
+		Newsletter Committee: Roshdyna Ahmad, James Stadick, Dunya Sarsour, and Hajjah Kamara.<br>
+
+		Coordinator Assistants for Ages 3-18: Zaid Dabus, Ryan Elfallah, Dunya Sarsour, and Aisha Gharsali<br>
+		</p>
+
+
+	</div>
+	<div class="videocol" id="videocol">
+	<h1>TMC Video Collection</h1>
+	<p> Below you can view all of our video recordings. This includes our weekly Wednesday halaqas, guest lectures, TMC videos, and short spiritual reminders. InshaAllah we hope you will find them benefecial. Check back every week for new videos, or subscribe to our Youtube channel for custom reminders when new videos are uploaded. </p>
+	<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZgTGI9C3iXQ?list=PL2E-2npVU_sggjHIAQbrdX4Quq2YRhqQV" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="contactus" id="contactus">
+	<center><p> 5901 E 130th Ave
+	Tampa, FL 33617<br>
+	Freephone: [PHONE_NUMBER]<br>
+	Telephone: [PHONE_NUMBER]<br>
+	Fax: [PHONE_NUMBER]<br>
+	Email: themuslimconnection@gmail.com</p></center>
+	</div>
+</div>
   
-  dasdda
+  
   
   
   
@@ -36,7 +122,7 @@
   
   
   <div id="footer" class="row-space-top-4 container-brand-dark footer-surround footer-container ">
-        <p> FOOTER</p>
+        <center><h3>"There should be from amongst you a group that calls to good, commands right, prohibits wrong, and these will be the successful ones (3:104)"</h3></center>
     </div>
   
   
