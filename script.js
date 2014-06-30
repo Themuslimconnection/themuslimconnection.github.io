@@ -15,7 +15,7 @@ $('html, body').animate({
 $(function() {
       $('#slides').slidesjs({
         width: 1600,
-        height: 550,
+        height: 700,
         play: {
           active: true,
           auto: true,
@@ -24,7 +24,7 @@ $(function() {
         }
       });
     });
-	
+
 function aboutus() {
 	if (i == 1) {
 	i = 2;
@@ -48,7 +48,7 @@ function aboutus() {
 			$("#headerslider").fadeIn(300).attr("src","https://scontent-a-atl.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1926164_238914726232919_8687177358005961372_o.jpg");
 			$("#headerslider2").fadeIn(300).attr("src","https://scontent-b-atl.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1941457_238914636232928_5947990824316941176_o.jpg");
 		}, 400);
-	
+
 	}
 	if (i == 4) {
 	i = 2;
@@ -60,18 +60,18 @@ $("#headerslider").fadeIn(300).attr("src","https://scontent-a-atl.xx.fbcdn.net/h
 	$('div#slides').show("slow");
 	setTimeout(function() {
 	$('div#aboutus').fadeIn(100);
-	
+
 	}, 400);
-	
+
 	}
-	
+
 }
 
 function home() {
 	if (i == 1) {
 	scrolldown();
 	}
-	
+
 	if  (i == 2) {
 	scrollup();
 	$('div#aboutus').fadeOut(555);
@@ -79,21 +79,21 @@ function home() {
 	$("#headerslider2").fadeOut(400);
 	setTimeout(function() {
 		$('div#homediv').fadeIn(375);
-		$("#headerslider").fadeIn(100).attr("src","http://fc01.deviantart.net/fs71/i/2013/308/a/8/faisal_masjid__islamabad_by_amjad_miandad-d6swywz.jpg");
-		$("#headerslider2").fadeIn(100).attr("src","http://3.bp.blogspot.com/-6RU50x4xLw0/ULJPHWuTHTI/AAAAAAAAAY0/jfF6LbzkE30/s1600/D7K_1848_sj.jpg");
+		$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
+		$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
 	}, 400);
 	i = 1;
 	}
 	if (i == 3) {
 	i = 1;
-	
+
 	$('div#container').show("slow");
 	$('div#slides').show("slow");
 	$('div#videocol').fadeOut(375);
 	setTimeout(function() {
 		$('div#homediv').fadeIn(375);
-		$("#headerslider").fadeIn(100).attr("src","http://fc01.deviantart.net/fs71/i/2013/308/a/8/faisal_masjid__islamabad_by_amjad_miandad-d6swywz.jpg");
-		$("#headerslider2").fadeIn(100).attr("src","http://3.bp.blogspot.com/-6RU50x4xLw0/ULJPHWuTHTI/AAAAAAAAAY0/jfF6LbzkE30/s1600/D7K_1848_sj.jpg");
+		$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
+		$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
 	}, 400);
 	}
 	if (i == 4) {
@@ -104,10 +104,10 @@ function home() {
 	$('div#slides').show("slow");
 	setTimeout(function() {
 	$('div#homediv').fadeIn(375);
-	$("#headerslider").fadeIn(100).attr("src","http://fc01.deviantart.net/fs71/i/2013/308/a/8/faisal_masjid__islamabad_by_amjad_miandad-d6swywz.jpg");
-	$("#headerslider2").fadeIn(100).attr("src","http://3.bp.blogspot.com/-6RU50x4xLw0/ULJPHWuTHTI/AAAAAAAAAY0/jfF6LbzkE30/s1600/D7K_1848_sj.jpg");
+	$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
+	$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
 	}, 400);
-	
+
 	}
 }
 
@@ -155,4 +155,3 @@ if (i == 3) {
 	}, 400);
 }
 }
-

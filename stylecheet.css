@@ -24,6 +24,7 @@ position:relative;
 	  bottom:30px;
 	  margin-top:-52px;
 	  z-index:110px;
+	  display:none;
     }
 	/*  THIS IS THE PLAY AND PAUSE BUTTON  ON THE LEFT HOLY  */
     a.slidesjs-next,
@@ -32,7 +33,6 @@ position:relative;
     a.slidesjs-stop {
       background-image: url(img/btns-next-prev.png);
       background-repeat: no-repeat;
-      display:block;
       width:12px;
       height:18px;
       text-indent: -9999px;
@@ -40,6 +40,7 @@ position:relative;
       margin-right:7px;
 	  margin-top:100;
       z-index:100;
+	  display:none;
     }
 
     a.slidesjs-next {
@@ -85,6 +86,7 @@ position:relative;
 	z-index: 100;
 	 overflow: hidden;
 	  margin-bottom:1px
+	  display:none;
     }
 
     .slidesjs-pagination li {
@@ -127,7 +129,7 @@ position:relative;
     .navbar {
       overflow: hidden
     }
-	 
+
 	#slides {
       display: none;
     }
@@ -174,7 +176,7 @@ position:relative;
 	width: auto;
 	position:relative;
 		margin-top: 0px;
-		height:550px;
+		height:700px;
       }
     }
 	#footer {
@@ -237,7 +239,7 @@ div.navbar {
 	position:fixed;
 	top:-1px;
 	z-index:150;
-	
+
 }
 /* Input is the button themselves, change the color of text or background */
 input {
@@ -265,7 +267,7 @@ box-shadow:none;
 	-o-transform: scale();
 	transform: scale();
 	-webkit-backface-visibility: hidden;
-	
+
 }
 input:hover{
 background:white;
