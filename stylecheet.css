@@ -12,35 +12,29 @@ margin-top:0px;
 position:relative;
 -webkit-font-smoothing: antialiased;
     }
+/* FOR SLIDERRRRRRRRRRRRRRRRRRRRRRRR */
 
-    #slides {
+#slides {
       display: none
-      top:100px;
     }
-/* positioning of the left thing */
+
     #slides .slidesjs-navigation {
-	 overflow: hidden; 
-	  margin-bottom:3px;
-	  bottom:30px;
-	  margin-top:-52px;
-	  z-index:110px;
-	  display:none;
+      margin-top:5px;
     }
-	/*  THIS IS THE PLAY AND PAUSE BUTTON  ON THE LEFT HOLY  */
+
     a.slidesjs-next,
     a.slidesjs-previous,
     a.slidesjs-play,
     a.slidesjs-stop {
       background-image: url(img/btns-next-prev.png);
       background-repeat: no-repeat;
+      display:block;
       width:12px;
       height:18px;
+      overflow: hidden;
       text-indent: -9999px;
       float: left;
-      margin-right:7px;
-	  margin-top:100;
-      z-index:100;
-	  display:none;
+      margin-right:5px;
     }
 
     a.slidesjs-next {
@@ -82,18 +76,11 @@ position:relative;
       margin: 7px 0 0;
       float: right;
       list-style: none;
-	  position:relative;
-	z-index: 100;
-	 overflow: hidden;
-	  margin-bottom:1px
-	  display:none;
     }
 
     .slidesjs-pagination li {
       float: left;
       margin: 0 1px;
-      z-index:100;
-	  margin-top:-20px;
     }
 
     .slidesjs-pagination li a {
@@ -129,19 +116,15 @@ position:relative;
     .navbar {
       overflow: hidden
     }
-
+	
+	/*RESPONSIVE PART OF SLIDER */
 	#slides {
-      display: none;
-	  position:relative;
-
+      display: none
     }
 
     .container {
-    	margin:0;
-      position:relative;
-    left:0;
-    top:0;
-	background-color: #F0F0F0;
+      margin: 0 auto;
+	  padding-bottom: 50px;
     }
 
     /* For tablets & smart phones */
@@ -151,52 +134,50 @@ position:relative;
         padding-right: 20px;
       }
       .container {
-      	position:relative;
-        width: auto;
-		margin-top: 0px;
-		background-color:black;
+        width: auto
       }
-	  .secondpanel {
-	margin-top: -120px;
-	padding-top: -120px;
-	}
     }
 
     /* For smartphones */
     @media (max-width: 480px) {
       .container {
-       width: auto;		
-		margin-top: 0px;
-		background-color:black;
+        width: auto
       }
-	  .secondpanel {
-	margin-top: -120px;
-	padding-top: -120px;
-	}
     }
 
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
-        width: 100%;
-		margin-top: 0px;
-		height:700px;
+        width: 724px
       }
     }
 
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+	
+	
+	/* END OF RESPONSIBE PART */
+	
+/*                            END OF SLIDER  */
+    
    
 	#footer {
 	margin-top:0px;
 padding-top: 20px;
-color: black;
+color: white;
 padding-right: 20%;
 padding-left: 20%;
-padding-bottom:10px;
-background-color: #F8F8F8   ;
+padding-bottom:20px;
+background-image: url('footer.jpg');
+background-repeat:repeat;
 border-color:#484848  ;
 border-style: solid;
 border-color:black;
-border-width: 0px;
+border-width: 1px;
 border-bottom: 0;
 border-right:0;
 border-left:0;
@@ -206,9 +187,11 @@ div {
 display: block;
 }
 .secondpanel {
+color:F0FFF0;
 margin-top:-42px;
 margin-bottom:0px;
-background-color: #F0F0F0;
+background-image: url('bg.jpg');
+background-repeat:repeat;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -222,7 +205,7 @@ border-bottom: 0;
 border-right:0;
 border-left:0;
 padding-bottom:10px;
-padding-top:5%;
+padding-top:1%;
 } 
 #spacetop {
 margin-top:37.5px
@@ -245,10 +228,16 @@ div.navbar {
 	position:fixed;
 	top:-1px;
 	z-index:150;
+	display:none;
 
 }
+div.toparea{
+font-family: 'Oswald', sans-serif, serif; font-weight: 400;
+background-image: url('whitebg.png');
+background-repeat:repeat;
+}
 /* Input is the button themselves, change the color of text or background */
-input {
+input.navbarbtns {
   font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
 width:150px;
    height:50px;
@@ -275,6 +264,23 @@ box-shadow:none;
 	-webkit-backface-visibility: hidden;
 
 }
+input.navbar1btn{
+
+width:200px;
+   height:70px;
+   padding: 0;
+   margin: 0;
+   outline:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+box-shadow:none;
+	border: none;
+	box-shadow:none;
+	background-color: transparent;
+	font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
+	font-size:25;
+}
+
 input:hover{
 background:white;
 color:black;
@@ -293,6 +299,25 @@ font-size:40;
 font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
 
 }
+til {
+font-size:60;
+font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
+position:absolute;
+float:right;
+top:35px;
+left:auto;
+right:auto;
+}
+div.navbar1 {
+padding-top:5px;
+ margin-right: auto;
+ margin-left:auto;
+ width:50em;
+}
+div.navbar2 {
+background-color: transparent;
+	font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
+}
 p {
 font-size:16;
 font-family: 'Oswald', sans-serif, serif; font-weight: 300; 
@@ -304,21 +329,17 @@ font-family: 'Oswald', sans-serif, serif; font-weight: 400;
 h2 {
 	font-size: 30;
 }
+h3{
+font-family: 'Oswald', sans-serif, serif; font-weight: 400; 
+font-size: 18;
+}
 .secondpanel .aboutus,
 .secondpanel .videocol,
 #maps,
-iframe.mapps ,
 #contactus {
 display:none;
 }
- /* For larger displays */
-    @media (min-height: 980px) {
-      .container {
-	width: auto;
-		margin-top: 0px;
-		height:700px;
-      }
-	.secondpanel {
-	margin-top: 60px;
-	}
-    }
+iframe.mapps {
+display:hidden;
+
+}

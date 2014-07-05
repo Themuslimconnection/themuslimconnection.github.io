@@ -1,5 +1,22 @@
 var i = 1;
+var ScrollTop = parseInt($(window).scrollTop());
+console.log(ScrollTop);
 
+
+$(document).ready(function () {
+	$( ".mapps" ).fadeOut(200);
+    $(window).scroll(function(){
+        var ScrollTop = parseInt($(window).scrollTop());
+        console.log(ScrollTop);
+
+        if (ScrollTop > 250) {
+           $('div#navbar').fadeIn(555);
+        }
+		if (ScrollTop < 250) {
+           $('div#navbar').fadeOut(555);
+        }
+    });
+});
 
 function scrollup() {
 $('html, body').animate({
@@ -14,8 +31,8 @@ $('html, body').animate({
 }
 $(function() {
       $('#slides').slidesjs({
-        width: 1600,
-        height: 700,
+        width: 940,
+        height: 400,
         play: {
           active: true,
           auto: true,
