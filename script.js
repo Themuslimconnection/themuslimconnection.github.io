@@ -50,8 +50,8 @@ function aboutus() {
 	$("#headerslider2").fadeOut(400);
 		setTimeout(function() {
 			$('div#aboutus').fadeIn(100);
-			$("#headerslider").fadeIn(300).attr("src","https://scontent-a-atl.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1926164_238914726232919_8687177358005961372_o.jpg");
-			$("#headerslider2").fadeIn(300).attr("src","https://scontent-b-atl.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1941457_238914636232928_5947990824316941176_o.jpg");
+			$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500");
+			$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 		}, 400);
 		scrollup();
 	} else if (i == 2) {
@@ -62,15 +62,15 @@ function aboutus() {
 	$('div#videocol').fadeOut(375);
 	setTimeout(function() {
 			$('div#aboutus').fadeIn(100);
-			$("#headerslider").fadeIn(300).attr("src","https://scontent-a-atl.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1926164_238914726232919_8687177358005961372_o.jpg");
-			$("#headerslider2").fadeIn(300).attr("src","https://scontent-b-atl.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1941457_238914636232928_5947990824316941176_o.jpg");
+			$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500");
+			$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 		}, 400);
 
 	}
 	if (i == 4) {
 	i = 2;
-$("#headerslider").fadeIn(300).attr("src","https://scontent-a-atl.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1926164_238914726232919_8687177358005961372_o.jpg");
-	$("#headerslider2").fadeIn(300).attr("src","https://scontent-b-atl.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1941457_238914636232928_5947990824316941176_o.jpg");
+$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500);
+	$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 	$( ".mapps" ).fadeOut(175);
 	$('div#contactus').fadeOut(375);
 	$('div#container').show("slow");
@@ -96,8 +96,8 @@ function home() {
 	$("#headerslider2").fadeOut(400);
 	setTimeout(function() {
 		$('div#homediv').fadeIn(375);
-		$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
-		$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
+		$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500");
+		$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 	}, 400);
 	i = 1;
 	}
@@ -109,8 +109,8 @@ function home() {
 	$('div#videocol').fadeOut(375);
 	setTimeout(function() {
 		$('div#homediv').fadeIn(375);
-		$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
-		$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
+		$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500");
+		$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 	}, 400);
 	}
 	if (i == 4) {
@@ -121,8 +121,8 @@ function home() {
 	$('div#slides').show("slow");
 	setTimeout(function() {
 	$('div#homediv').fadeIn(375);
-	$("#headerslider").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/08/Muhammad-S.A.W-Mosque-and-Grave-1600x700.jpg");
-	$("#headerslider2").fadeIn(100).attr("src","http://mosthdwallpapers.com/wp-content/uploads/2013/12/Ya-Rasool-Allah-1600x700.jpg");
+	$("#headerslider").fadeIn(100).attr("src","http://placehold.it/1170x500");
+	$("#headerslider2").fadeIn(100).attr("src","http://placehold.it/1170x500");
 	}, 400);
 
 	}
