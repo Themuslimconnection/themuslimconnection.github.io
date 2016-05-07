@@ -69,7 +69,7 @@ function aboutus() {
 	}
 	if (i == 4) {
 	i = 2;
-$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500);
+$("#headerslider").fadeIn(300).attr("src","http://placehold.it/1170x500");
 	$("#headerslider2").fadeIn(300).attr("src","http://placehold.it/1170x500");
 	$( ".mapps" ).fadeOut(175);
 	$('div#contactus').fadeOut(375);
